@@ -65,7 +65,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 To use in Observable,
 
 ```javascript
-meankbn2 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meankbn2@umd/browser.js' )
+meankbn2 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meankbn2@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -77,7 +77,7 @@ var meankbn2 = require( 'path/to/vendor/umd/stats-strided-meankbn2/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meankbn2@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meankbn2@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -181,7 +181,7 @@ var v = meankbn2.ndarray( 4, x, 2, 1 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meankbn2@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meankbn2@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
