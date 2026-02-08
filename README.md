@@ -63,7 +63,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-import meankbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meankbn2@esm/index.mjs';
+import meankbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meankbn2@v0.1.1-esm/index.mjs';
 ```
 
 #### meankbn2( N, x, strideX )
@@ -159,7 +159,7 @@ var v = meankbn2.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import meankbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meankbn2@esm/index.mjs';
+import meankbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meankbn2@v0.1.1-esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
