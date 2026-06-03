@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-13)
+## Unreleased (2026-06-03)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`a0dea9a`](https://github.com/stdlib-js/stdlib/commit/a0dea9a69e82a3df2f7693f088b738db87d4c2d7) - widen main signature input type in `strided/meankbn2` [(#12498)](https://github.com/stdlib-js/stdlib/pull/12498)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`a0dea9a`](https://github.com/stdlib-js/stdlib/commit/a0dea9a69e82a3df2f7693f088b738db87d4c2d7) - **fix:** widen main signature input type in `strided/meankbn2` [(#12498)](https://github.com/stdlib-js/stdlib/pull/12498) _(by Philipp Burckhardt)_
 -   [`d6c72a0`](https://github.com/stdlib-js/stdlib/commit/d6c72a042cca76e97759951cdbf89375b784e16a) - **bench:** refactor to use string interpolation in `stats/strided` [(#11359)](https://github.com/stdlib-js/stdlib/pull/11359) _(by Karan Anand)_
 
 </details>
@@ -24,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
